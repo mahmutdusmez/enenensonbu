@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randevu Al</title>
+  <link rel="stylesheet" href="styles/style.css">
+  
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer" /> <!-- MarketCar ve hamburger menu butonları buradan alıyoruz  -->
+  <header class="header">
+    <a href="Ana sayfa.html" class="logo">  <!-- logoya tıklama olayı  -->
+    <img src="images/logob.png" alt="logo"/>
+    </a>
+    <nav class="navbar">
+        <a href="main_page.html" class="active" >HOME</a>
+        <a href="#" >ABOUT</a>
+        <a href="services.html" >SERVICES</a>
+        <a href="products.html" >PRODUCTS</a>
+        <a href="#" >CONTACT US</a>
+        <a href="member.html" >OUR STILISTS</a>
+        <a href="appointment.html">APPOINTMENT</a>
+    </nav>
+
+    <div class="buttons">
+        <button id="LogIN">
+            <i class="fas fa-sign-in-alt"></i>
+        </button>
+        <button id="search-btn">
+            <i class="fas fa-search"></i> <!-- hamburger  -->
+        </button>
+        <button id="cart-btn">
+            <i class="fas fa-shopping-cart"></i> <!-- market car  -->
+        </button>
+        <button id="menu-btn">
+            <i class="fas fa-bars"></i> <!-- hamburger  -->
+        </button>
+    </div>
+
+
+
+ <div class="search-form active ">
+    <input type="text" class="search-input" id="search-box" placeholder="search-here" />
+    <i class="fas fa-search"></i>
+ </div>
+
+
+ <div class="cart-items-container ">
+    <div class="cart-item">
+        <i class =fas fa-times></i>
+        <img src="images/urunler-1.jpg" alt="urun">
+        <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">10.99$/</div>
+        </div>
+    </div>
+    <div class="cart-item">
+        <i class =fas fa-times></i>
+        <img src="images/urunler-1.jpg" alt="urun">
+        <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">10.99$/</div>
+        </div>
+    </div>
+    <div class="cart-item">
+        <i class =fas fa-times></i>
+        <img src="images/urunler-2.jpg" alt="urun">
+        <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">10.99$/</div>
+        </div>
+    </div>
+    <div class="cart-item">
+        <i class =fas fa-times></i>
+        <img src="images/urunler-3.jpg" alt="urun">
+        <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">10.99$/</div>
+        </div>
+    </div>
+        <a href="#" class="btn">Checkout Now</a> 
+ </div>
+
+</header>
+  
+  <div class="container3">
+    <br><br><br><br><br><br>
+    <h4>Randevu Al</h4>
+    <form>
+
+        <label for="service">Berber Hizmeti:</label>
+        <select id="service" name="service" required>
+          <option value="">Hizmet seçin</option>
+          <option value="Kesim">Saç Kesimi</option>
+          <option value="Traş">Sakal Traşı</option>
+          <option value="Traş">Saç kesimi ve Sakal Traşı</option>
+          <option value="Boyama">Saç Boyama</option>
+          <option value="Röfle">Saç Röfle</option>  
+        </select>
+
+      
+
+        <label for="service">Stilist Seçiniz:</label>
+        <select id="service" name="service" required>
+          <option value="">Stilist</option>
+          <option value="Kesim">Mahmut Düşmez</option>
+          <option value="Boyama">Deniz Zahmetsiz</option>
+          <option value="Röfle">Onur GÜven Güven</option>
+          <option value="Traş">Selim Çekir</option>
+          <option value="Traş">Korhan Demir</option>
+        </select>
+      <label for="date">Tarih:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Saat:</label>
+      <select id="time" name="time" required>
+        <option value="">Saat seçin</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+      </select>
+
+      <input type="submit" value="Randevu Al">
+    </form>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

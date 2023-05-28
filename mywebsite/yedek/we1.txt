@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" /> <!-- MarketCar ve hamburger menu butonları buradan alıyoruz  -->
+    <title>Stilista</title>
+    <head>
+        <body>
+            <!-- header sec. start  -->
+
+            <!-- header sec. end  -->
+
+            <header class="header">
+                <a href="#" class="logo">  <!-- logoya tıklama olayı  -->
+                <img src="images/Clabslogo.jpg" alt="logo"/>
+                </a>
+                <nav class="navbar">
+                    <a href="#" class="active" >Home</a>
+                    <a href="#" >About</a>
+                    <a href="#" >Hizmetler</a>
+                    <a href="#" >Ürünler</a>
+                    <a href="#" >Bize Ulaşın</a>
+                </nav>
+
+                <div class="buttons">
+                    <button id="search-btn">
+                        <i class="fas fa-search"></i> <!-- hamburger  -->
+                    </button>
+                    <button id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i> <!-- market car  -->
+                    </button>
+                    <button id="menu-btn">
+                        <i class="fas fa-bars"></i> <!-- hamburger  -->
+                    </button>
+                </div>
+
+
+
+             <div class="search-form active ">
+                <input type="text" class="search-input" id="search-box" placeholder="search-here" />
+                <i class="fas fa-search"></i>
+             </div>
+
+
+             <div class="cart-items-container ">
+                <div class="cart-item">
+                    <i class =fas fa-times></i>
+                    <img src="images/urunler-1.jpg" alt="urun">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">10.99$/</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class =fas fa-times></i>
+                    <img src="images/urunler-1.jpg" alt="urun">
+                    <div class="content">
+                        <h3>cart item 02</h3>
+                        <div class="price">10.99$/</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class =fas fa-times></i>
+                    <img src="images/urunler-2.jpg" alt="urun">
+                    <div class="content">
+                        <h3>cart item 03</h3>
+                        <div class="price">10.99$/</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class =fas fa-times></i>
+                    <img src="images/urunler-3.jpg" alt="urun">
+                    <div class="content">
+                        <h3>cart item 04</h3>
+                        <div class="price">10.99$/</div>
+                    </div>
+                </div>
+                    <a href="#" class="btn">Checkout Now</a> 
+             </div>
+
+            </header>
+            <!-- header section end  -->
+
+            <!-- home section start  -->
+            <section class="home">
+                <div class="content">
+                    
+                    <h1 >Cut LABS</h3>
+                    <p>Gelişen dünyanın hızlı değişimlerine ve stil tercihlerine ayak uydurmaya
+                        çalışan erkeğin seçimlerinde ona destek olmak, onun yüzünü doğru yöne
+                        çevirmek ve özgüvenini tasarlamak istiyoruz.
+                    </p>
+                    <a href="" class="btn">Order Now</a>
+                </div>
+            </section>
+
+
+             <!-- About US  -->
+             <section class="about">
+                <h1 class="heading">CUT <span>Labs</span></h1>
+                <div class="row">
+                    <div class="image">
+                        <img src="images/aboutus-1.jpg" alt="about" />
+                    </div>
+                    <div class="content"> 
+                        <h3>asdsadsaddsa</h3> 
+                        <p>Gelişen dünyanın hızlı değişimlerine ve stil tercihlerine
+                             ayak uydurmaya çalışan erkeğin seçimlerinde ona destek olmak, 
+                             onun yüzünü doğru yöne çevirmek ve özgüvenini tasarlamak istiyoruz.
+                        </p>
+                        <p>Gelişen dünyanın hızlı değişimlerine ve stil tercihlerine
+                            ayak uydurmaya çalışan erkeğin seçimlerinde ona destek olmak, 
+                            onun yüzünü doğru yöne çevirmek ve özgüvenini tasarlamak istiyoruz.
+                       </p>
+                       <p>Gelişen dünyanın hızlı değişimlerine ve stil tercihlerine
+                        ayak uydurmaya çalışan erkeğin seçimlerinde ona destek olmak, 
+                        onun yüzünü doğru yöne çevirmek ve özgüvenini tasarlamak istiyoruz.
+                   </p>
+                   <a href="#" class="btn">Learn more</a>
+                    </div>
+                </div>
+            </section>
+            <!-- About US end  -->
+
+
+            <!-- cut care atelier start  -->
+           <section class="info">
+                <h1 class="heading"> Salone <span>Stilista</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="box-head">
+                            <span class="title">CUT</span>
+                            <div>
+                                <img src="images/info-1.jpg" alt="">
+                                <p>Uluslararası ödüllü, sistematik erkek saç ve sakal kesimi.
+                                   Geçmişten aldığı bilgiyi geleceğin vizyonuyla birleştiren stiller, 
+                                   kişiye özel tasarlanmış özgün bir duruş için Gelenekselden geleceğe
+                                    programlı bir geçiş.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <span class="title">CARE</span>
+                            <div>
+                                <img src="images/info-2.jpg" alt="">
+                                <p>Minimalist dokunuşlarla elde edilen gerçek bir centilmen görünümü. 
+                                    Profesyoneller tarafından yapılan manikür, pedikür, cilt ve saç 
+                                    bakımı görünümünü tamamlar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <span class="title">ATELIER</span>
+                            <div>
+                                <img src="images/info-3.jpg" alt="">
+                                <p>Saç kesimi ve bakımın ayrıntılarını ve rahatlatıcı etkilerini
+                                   atölyelerimizde deneyimleyin. Şirketlere ofislerinde meslektaşlarını 
+                                   şaşırtmaları için hizmet vermekten de mutluyuz.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!-- cut care atelier end  -->
+
+
+           
+
+
+
+
+            <!-- urunler section start  -->
+            <section class="urun">
+                <h1 class="heading">Öne Çıkan <span>Ürünler</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="box-head">
+                            <img src="images/urunler-1.jpg" alt="urunler"/>
+                            <span class="urun-category">SAMPUAN</span> <!-- css yaz  -->
+                            <h3>AVEDA E SAMPUAN</h3>
+                            <div class="price">$104.99 <span>$119.99</span>
+                            </div>
+                        </div>
+                        <div class="box-bottom">
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <img src="images/urunler-2.jpg" alt="urunler"/>
+                            <span class="urun-category">SAMPUAN</span>
+                            <h3>AVEDA E SAMPUAN</h3>
+                            <div class="price">$50.99 <span>$39.99</span>
+                            </div>
+                        </div>
+                        <div class="box-bottom">
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <img src="images/urunler-3.jpg" alt="urunler"/>
+                            <span class="urun-category">SAMPUAN</span>
+                            <h3>AVEDA E SAMPUAN</h3>
+                            <div class="price">$150.99 <span>$99.99</span></div>
+                        </div>
+                        <div class="box-bottom">
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- menu section end  -->
+
+
+            <!-- contact section start -->
+
+            <section class="contact">
+                <h1 class="heading">Contact <span>US</span></h1>
+                <div class="row">
+                    <iframe 
+                    class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12032.225800666927!2d28.9467185!3d41.0677587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab0ce099c5d49%3A0x9f665fc172ad4624!2s%C4%B0stanbul%20Bilgi%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1684580708063!5m2!1str!2str" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <form>
+                        <h3>get in touch</h3>
+                        <div class="inputBox">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="name" />
+                        </div>
+                        <div class="inputBox">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="mail adress" />
+                        </div>
+                        <div class="inputBox">
+                            <i class="fas fa-phone"></i>
+                            <input type="number" placeholder="phone" />
+                        </div>
+                        <br><br><br>
+                        <input type="submit" class="btn" value="contact now" />
+                    </form>
+                </div>
+            </section>
+            <!-- contact section end -->
+
+
+
+
+
+
+                <!-- contact section start -->
+                <section clas="footer">
+                    <div class="search">
+                        <input type="text" 
+                        class="search-input"
+                        placeholder="Search">
+                        <button class="btn btn-primary">search</button>
+                    </div>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+
+                 <div class="links">
+                    <a href="#">home</a>
+                    <a href="#">felsefe</a>
+                    <a href="#">hizmetler</a>
+                    <a href="#">ürünler</a>
+                    <a href="#">bize ulaşın</a>
+                 </div>
+                </section>
+
+                <script src="js/script.js"></script>
+           
+                <!-- contact section end -->
+        </body>
+    </head>
+</html>
